@@ -14,6 +14,9 @@
   <remove-project name="AOKP/system_core" />
 
   <!-- AOKP replacements -->
+  <project path="build" name="STS-Dev-Team/android_build" revision="ics" remote="gh" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-aokp" remote="gh" />
   <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
