@@ -9,9 +9,11 @@
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/external/icu4c" />
   <remove-project name="AOKP/android_build" />
+  <remove-project name="AOKP/device_amazon_otter />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/system_core" />
+  <remove-project name="AOKP/vendor_aokp" />
 
   <!-- AOKP replacements -->
   <project path="build" name="STS-Dev-Team/android_build" revision="ics" remote="gh" >
@@ -21,6 +23,7 @@
   <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" revision="ics" remote="gh" />
+  <project path="frameworks/base" name="STS-Dev-Team/vendor_aokp" remote="gh" />
 
   <!-- optionals -->
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" remote="gh" />
