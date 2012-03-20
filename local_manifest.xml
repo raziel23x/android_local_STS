@@ -18,7 +18,7 @@
   <project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="STS-Dev_team/android_frameworks_base" revision="ics-aokp" remote="gh" />
+  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-aokp" remote="gh" />
   <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" revision="ics" remote="gh" />
