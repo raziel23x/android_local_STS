@@ -30,20 +30,16 @@
   <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" remote="gh" />
 
   <!-- local projects -->
-  <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" revision="ics-aokp" remote="gh" />
-  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" revision="ics-aokp" remote="gh" />
-  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics-aokp" remote="gh" />
-  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" revision="ics-aokp" remote="gh" />
+  <project path="device/moto/solana" name="dhacker29/android_device_moto_solana" revision="ics" remote="gh" />
+  <project path="device/moto/targa" name="dhacker29/android_device_moto_targa" revision="ics" remote="gh" />
+  <project path="device/moto/spyder" name="dhacker29/android_device_moto_spyder" revision="ics" remote="gh" />
+  <project path="device/moto/maserati" name="dhacker29/android_device_moto_maserati" revision="ics" remote="gh" />
   <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" revision="refs/heads/ics-hybrid-solana" remote="gh" />
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" revision="refs/heads/ics-hybrid" remote="gh" />
   <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" revision="ics" remote="gh" />
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="ics" remote="gh" />\
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="ics" remote="gh" />
-  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="ics" remote="gh" />
-  <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana" revision="ics" remote="gh" />
-  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" revision="ics" remote="gh" />
-  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="ics" remote="gh" />
-  <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" revision="ics" remote="gh" />
+  <project path="vendor/moto" name="STS-Dev-Team/vendor_moto" revision="ics" remote="gh" />
 </manifest>
 
