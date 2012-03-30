@@ -14,6 +14,7 @@
   <remove-project name="AOKP/system_core" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_moto" />
+  <remove-project name="AOKP/android_hardware_ti_wpan" />
 
   <!-- AOKP replacements -->
   <project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
@@ -39,7 +40,7 @@
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" revision="refs/heads/ics-hybrid" remote="gh" />
   <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" revision="ics" remote="gh" />
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
-  <!-- ><project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="ics" remote="gh" /> -->
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="ics" remote="gh" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="ics" remote="gh" />
   <project path="vendor/moto" name="dhacker29/vendor_moto" revision="ics" remote="gh" />
 </manifest>
