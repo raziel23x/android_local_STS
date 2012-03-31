@@ -15,6 +15,7 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_moto" />
   <remove-project name="AOKP/android_hardware_ti_wpan" />
+  <remove-project name="AOKP/android_hardware_ti_wlan" />
 
   <!-- AOKP replacements -->
   <project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
