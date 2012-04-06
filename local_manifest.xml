@@ -15,7 +15,25 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_moto" />
   <remove-project name="AOKP/android_hardware_ti_wpan" />
-  <remove-project name="AOKP/android_hardware_ti_wlan" />
+
+
+  <!-- post 4.0.4_r1.1 projects added w/ "master" branch -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+  <remove-project name="platform/prebuilts/tools" />
+  <remove-project name="platform/external/android-clat" />
+  <remove-project name="platform/external/apache-qp" />
+  <remove-project name="platform/external/eclipse-windowbuilder" />
+  <remove-project name="platform/external/libselinux" />
+  <remove-project name="platform/external/libsepol" />
+  <remove-project name="platform/external/libusb" />
+  <remove-project name="platform/external/libusb-compat" />
+  <remove-project name="platform/external/replicaisland" />
+  <remove-project name="platform/external/sepolicy" />
+  <remove-project name="platform/frameworks/opt/carddav" />
+  <remove-project name="platform/packages/apps/SmartCardService" />
+
 
   <!-- AOKP replacements -->
   <project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
