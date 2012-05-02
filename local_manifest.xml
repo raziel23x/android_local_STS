@@ -5,8 +5,6 @@
            fetch="git://git.omapzoom.org/" />
 
   <!-- removals -->
-  <remove-project name="platform/hardware/ti/omap3" />
-  <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/external/icu4c" />
   <remove-project name="AOKP/android_build" />
   <remove-project name="AOKP/frameworks_base" />
@@ -15,7 +13,7 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_moto" />
   <remove-project name="AOKP/android_hardware_ti_wpan" />
-
+  <remove-project name="AOKP/device_moto_stingray" />
 
   <!-- AOKP replacements -->
   <project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
@@ -25,24 +23,14 @@
   <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" revision="ics" remote="gh" />
-  <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics" remote="gh" />
+  <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics-aokp" remote="gh" />
 
   <!-- optionals -->
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" remote="gh" />
-  <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" revision="ics" remote="gh" />
-  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" remote="gh" />
 
   <!-- local projects -->
-  <project path="device/moto/solana" name="dhacker29/android_device_moto_solana" revision="ics" remote="gh" />
-  <project path="device/moto/targa" name="dhacker29/android_device_moto_targa" revision="ics" remote="gh" />
-  <project path="device/moto/spyder" name="dhacker29/android_device_moto_spyder" revision="ics" remote="gh" />
-  <project path="device/moto/maserati" name="dhacker29/android_device_moto_maserati" revision="ics" remote="gh" />
-  <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" revision="refs/heads/ics-hybrid-solana" remote="gh" />
-  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" revision="refs/heads/ics-hybrid" remote="gh" />
-  <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" revision="ics" remote="gh" />
-  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
+  <project path="device/moto/spyder" name="dhacker29/android_device_moto_spyder" revision="ics-leak" remote="gh" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="ics" remote="gh" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="ics" remote="gh" />
-  <project path="vendor/moto" name="dhacker29/vendor_moto" revision="ics" remote="gh" />
+  <project path="vendor/moto" name="dhacker29/vendor_moto" revision="ics-leak" remote="gh" />
 </manifest>
 
