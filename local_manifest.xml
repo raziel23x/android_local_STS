@@ -35,7 +35,6 @@
   <project path="vendor/moto" name="dhacker29/vendor_moto" revision="ics-leak" remote="gh" />
 
   <!-- TI add on APPS -->
-  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics" />
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
   
