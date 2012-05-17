@@ -12,6 +12,7 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_moto" />
   <remove-project name="AOKP/android_hardware_ti_wpan" />
+  <remove-project name="AOKP/android_hardware_ti_wlan" />
   <remove-project name="AOKP/device_moto_stingray" />
   <remove-project name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
 
@@ -36,6 +37,7 @@
   <!-- TI add on APPS -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics" />
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
   
 </manifest>
 
