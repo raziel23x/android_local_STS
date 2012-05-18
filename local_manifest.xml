@@ -11,6 +11,7 @@
   <remove-project name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
 
   <!-- CM replacements -->
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" />
@@ -41,5 +42,6 @@
   
   <!-- TI add on APPS -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
   
 </manifest>
