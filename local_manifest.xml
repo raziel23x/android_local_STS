@@ -55,5 +55,6 @@
   <project path="bionic" name="platform/bionic" remote="omapzoom" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
   <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" />
-  
+  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics"/>
+
 </manifest>
