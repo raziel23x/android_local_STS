@@ -16,6 +16,7 @@
   <remove-project name="AOKP/device_moto_stingray" />
   <remove-project name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
   <remove-project name="AOKP/android_bionic" />
+  <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <!-- ><remove-project name="Aplatform/external/iptables" />
   <remove-project name="platform/external/iproute2" /> -->
@@ -28,6 +29,7 @@
   <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" revision="ics" remote="gh" />
   <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics-leak" remote="gh" />
+  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-leak-aokp" remote="gh" />
 
   <!-- optionals -->
     <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" revision="ics" remote="gh" />
