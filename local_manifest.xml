@@ -44,13 +44,13 @@
   <!-- <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" /> -->
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" />
-  
+  <project path="hardware/ti/domx" name="STS-Dev-Team/android_hardware_ti_domx" />
+  <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" />
+
   <!-- TI add on APPS -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
   <!-- <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="ics-mr1" /> -->
-  <project path="hardware/ti/domx" name="platform/hardware/ti/domx" remote="omapzoom" revision="0ada1957ac18c41762d82a25d19c31ba3ea1e657"/>
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="omapzoom" revision="dae9331fb37e0e2955e84e0e89d45e00c78a34ed" />
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
   <project path="bionic" name="platform/bionic" remote="omapzoom" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
   <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
