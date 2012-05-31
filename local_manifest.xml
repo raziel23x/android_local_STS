@@ -16,10 +16,8 @@
   <remove-project name="AOKP/device_moto_stingray" />
   <remove-project name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
   <remove-project name="AOKP/bionic" />
-  <!-- ><remove-project name="AOKP/packages_apps_Phone" /> -->
+  <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
-  <!-- ><remove-project name="Aplatform/external/iptables" />
-  <remove-project name="platform/external/iproute2" /> -->
 
   <!-- AOKP replacements -->
   <project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
@@ -29,7 +27,7 @@
   <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" revision="ics" remote="gh" />
   <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics-leak" remote="gh" />
-  <!-- ><project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-leak-aokp" remote="gh" /> -->
+  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
 
   <!-- optionals -->
     <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" revision="ics" remote="gh" />
@@ -48,8 +46,6 @@
    <!-- <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="ics-mr1" /> -->
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
   <project path="bionic" name="platform/bionic" remote="omapzoom" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
-  <!-- ><project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
-  <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" /> -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics"/>
   
 </manifest>
