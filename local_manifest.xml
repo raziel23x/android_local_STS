@@ -18,7 +18,7 @@
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="gh" revision="ics" />
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
 
   <!-- TI replacements -->
   <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="ics-omapzoom">
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="ics-omapzoom" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="ics" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
 
 </manifest>
