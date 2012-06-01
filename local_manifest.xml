@@ -1,55 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/" />
+<remote  name="gh"
+           fetch="git://github.com/" />
 
-  <!-- removals -->
-  <remove-project name="platform/external/icu4c" />
-  <remove-project name="AOKP/android_build" />
-  <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="AOKP/system_core" />
-  <remove-project name="AOKP/vendor_aokp" />
-  <remove-project name="AOKP/vendor_moto" />
-  <remove-project name="AOKP/android_hardware_ti_wpan" />
-  <remove-project name="AOKP/android_hardware_ti_wlan" />
-  <remove-project name="AOKP/device_moto_stingray" />
-  <remove-project name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
-  <remove-project name="AOKP/bionic" />
-  <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
-  <remove-project name="AOKP/packages_apps_Settings" />
-  
+  <remove-project name="platform/hardware/ti/domx" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/system/vold" />
 
-  <!-- AOKP replacements -->
-  <project path="build" name="dhacker29/android_build" revision="ics" remote="gh" >
+    <!-- local manifest to add spyder -->
+  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
+  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="ics-leak" />
+  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="gh" revision="ics" />
+  <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
+  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
+  <!-- TI replacements -->
+  <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="ics-omapzoom">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-aokp" remote="gh" />
-  <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
-  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" revision="ics" remote="gh" />
-  <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics-leak" remote="gh" />
-  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-aokp" remote="gh" />
-
-  <!-- optionals -->
-    <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" revision="ics" remote="gh" />
-    <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" remote="gh" />
-
-  <!-- local projects -->
-  <project path="device/moto/spyder" name="dhacker29/android_device_moto_spyder" revision="ics-leak" remote="gh" />
-  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="ics" remote="gh" />
-  <project path="vendor/moto" name="dhacker29/vendor_moto" revision="ics-leak" remote="gh" />
   <project path="hardware/ti/domx" name="STS-Dev-Team/android_hardware_ti_domx" revision="ics" remote="gh" />
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" revision="ics" remote="gh" />
+  <project path="bionic" name="platform/bionic" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
+  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="ics-omapzoom" />  
 
-  <!-- TI add on APPS -->
-  <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
-   <!-- <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="ics-mr1" /> -->
-  <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
-  <project path="bionic" name="platform/bionic" remote="omapzoom" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
-  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics"/>
-  
 </manifest>
-
