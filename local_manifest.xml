@@ -12,6 +12,8 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/packages/apps/Phone" />
+  <remove-project name="platform/packages/apps/Settings" />
 
     <!-- local manifest to add spyder -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
@@ -33,5 +35,7 @@
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="ics-omapzoom" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
+  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-omapzoom" remote="gh" />
+  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-omapzoom" remote="gh" />
 
 </manifest>
