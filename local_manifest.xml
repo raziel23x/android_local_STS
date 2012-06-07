@@ -14,7 +14,7 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/packages/apps/Phone" />
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="packages/apps/OMAPCamera" />"
+  <remove-project name="platform/packages/apps/OMAPCamera" />"
 
     <!-- local manifest to add spyder -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
