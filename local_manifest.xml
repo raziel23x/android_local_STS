@@ -24,7 +24,7 @@
   <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics-leak" remote="gh" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-aokp" remote="gh" />
-  <project path="bionic" name="STS-Dev-Team/android_bionic" />
+  <project path="bionic" name="STS-Dev-Team/android_bionic" revision="ics" remote="gh" />
 
   <!-- optionals -->
     <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" revision="ics" remote="gh" />
