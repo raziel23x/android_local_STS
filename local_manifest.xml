@@ -17,7 +17,6 @@
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="AOKP/packages_apps_Settings" />
-  
 
   <!-- AOKP replacements -->
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-aokp" remote="gh" />
@@ -25,6 +24,7 @@
   <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics-leak" remote="gh" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-aokp" remote="gh" />
+  <project path="bionic" name="STS-Dev-Team/android_bionic" />
 
   <!-- optionals -->
     <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" revision="ics" remote="gh" />
@@ -43,7 +43,6 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
    <!-- <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="ics-mr1" /> -->
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
-  <project path="bionic" name="platform/bionic" remote="omapzoom" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics-release"/>
   
 </manifest>
