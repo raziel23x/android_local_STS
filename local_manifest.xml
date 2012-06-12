@@ -21,6 +21,7 @@
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
   <!-- <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" /> -->
   <project path="system/core" name="STS-Dev-Team/android_system_core" />
+  <project path="bionic" name="STS-Dev-Team/android_bionic" />
 
   <!-- local projects -->
   <!-- <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" />
@@ -43,7 +44,6 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
   <!-- <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="ics-mr1" /> -->
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
-  <project path="bionic" name="platform/bionic" remote="omapzoom" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
   <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics"/>
