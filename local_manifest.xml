@@ -11,7 +11,6 @@
   <remove-project name="AOKP/vendor_moto" />
   <remove-project name="AOKP/android_hardware_ti_wpan" />
   <remove-project name="AOKP/android_hardware_ti_wlan" />
-  <remove-project name="AOKP/device_moto_stingray" />
   <remove-project name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
   <remove-project name="AOKP/bionic" />
   <remove-project name="AOKP/packages_apps_Phone" />
