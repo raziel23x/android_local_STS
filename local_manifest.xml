@@ -15,10 +15,14 @@
   <remove-project name="platform/packages/apps/Phone" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/OMAPCamera" />"
-
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="device/ti/common-open" />
+  
     <!-- local manifest to add spyder -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
+  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" remote="gh" revision="ics-omapzoom-leak" />
+  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" remote="gh" revision="ics-omapzoom-leak" />
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="gh" revision="ics" />
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
@@ -39,4 +43,6 @@
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-omapzoom" remote="gh" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-omapzoom" remote="gh" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics-release" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="d40d3061e5b6ef2f9381bc7b5a2d66e834fbcd80" />
+  <project path="device/ti/common-open" name="device/ti/common-open" revision="3bb39de0b5dd47c22fc387a8249b061edff014e6" />
 </manifest>
