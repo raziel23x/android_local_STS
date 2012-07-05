@@ -13,6 +13,7 @@
   <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_external_iptables" />
   <remove-project name="CyanogenMod/android_external_iproute2" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
 
   <!-- CM replacements -->
@@ -46,6 +47,6 @@
   <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics-release"/>
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="d933a3abe927e2285cad8c00e3d6adfbb1998f8f" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="b9db91d4d46cb24b5c3f687ad938167af6c2271b" />
-
 </manifest>
