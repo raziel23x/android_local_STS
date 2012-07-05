@@ -35,6 +35,9 @@
   <project path="hardware/ti/domx" name="STS-Dev-Team/android_hardware_ti_domx" />
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" />
 
+  <!-- Global RAZR kernel -->
+  <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" />
+
   <!-- TI add on APPS -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
   <!-- ><project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
