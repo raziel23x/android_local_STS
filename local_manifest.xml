@@ -47,6 +47,6 @@
   <project path="device/ti/common-open" name="device/ti/common-open" revision="3bb39de0b5dd47c22fc387a8249b061edff014e6" />
 
 <!-- Global RAZR kernel -->
-  <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" />
+  <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" remote="gh" revision="master" />
 
 </manifest>
