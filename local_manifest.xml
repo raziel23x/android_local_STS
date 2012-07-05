@@ -18,7 +18,7 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="device/ti/common-open" />
   
-    <!-- local manifest to add spyder -->
+    <!-- local manifest to add STS-projects -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
   <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" remote="gh" revision="ics-omapzoom-leak" />
@@ -45,4 +45,8 @@
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics-release" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="d40d3061e5b6ef2f9381bc7b5a2d66e834fbcd80" />
   <project path="device/ti/common-open" name="device/ti/common-open" revision="3bb39de0b5dd47c22fc387a8249b061edff014e6" />
+
+<!-- Global RAZR kernel -->
+  <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" />
+
 </manifest>
