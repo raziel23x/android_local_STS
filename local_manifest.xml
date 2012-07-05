@@ -16,7 +16,7 @@
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="AOKP/packages_apps_Settings" />
-  <remove-project name="AOKP/external_wpa_supplicant_8" />
+  <!-- <remove-project name="AOKP/external_wpa_supplicant_8" /> -->
 
   <!-- AOKP replacements -->
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-aokp-moto-ril" remote="gh" />
@@ -44,10 +44,10 @@
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics-release"/>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="d933a3abe927e2285cad8c00e3d6adfbb1998f8f" />
+  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="d933a3abe927e2285cad8c00e3d6adfbb1998f8f" /> -->
 
   <!-- Global RAZR kernel for modules -->
-  <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" />
+  <!-- <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" /> -->
 
 </manifest>
 
