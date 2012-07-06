@@ -20,7 +20,7 @@
 
   <!-- AOKP replacements -->
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-aokp-moto-ril" remote="gh" />
-  <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics" remote="gh" />
+  <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics-moto" remote="gh" />
   <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" revision="ics-leak" remote="gh" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-aokp" remote="gh" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-aokp" remote="gh" />
