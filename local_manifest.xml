@@ -37,7 +37,7 @@
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" />
 
   <!-- Global RAZR kernel -->
-  <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" />
+  <project path="kernel/motorola/omap4_xt910s" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" />
 
   <!-- TI add on APPS -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
