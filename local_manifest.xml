@@ -11,7 +11,7 @@
   <remove-project name="platform/build" />
 
   <!-- AOSP replacements -->
-  <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="jb">
+  <project path="build" name="STS-Dev-Team/build" remote="gh" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
