@@ -11,6 +11,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- AOSP replacements -->
   <project path="build" name="STS-Dev-Team/build" remote="gh" revision="jb">
@@ -18,6 +19,7 @@
   </project>
   <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="gh" revision="jb" />
   <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb" />
+  <project path="frameworks/native" name="STS-Dev-Team/platform_frameworks_native" remote="gh" revision="jb" />
 
     <!-- local manifest to add STS-projects -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="jb" />
