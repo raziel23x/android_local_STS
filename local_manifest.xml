@@ -13,6 +13,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/packages/apps/Phone" />
+  <remove-project name="platform/packages/apps/Settings" />
 
   <!-- AOSP replacements -->
   <project path="build" name="STS-Dev-Team/build" remote="gh" revision="jb">
@@ -22,7 +23,7 @@
   <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb" />
   <project path="frameworks/native" name="STS-Dev-Team/platform_frameworks_native" remote="gh" revision="jb" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" remote="gh" revision="jb-aosp" />
-
+  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" remote="gh" revision="jb-aosp" />
 
     <!-- local manifest to add STS-projects -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="jb" />
