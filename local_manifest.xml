@@ -9,11 +9,15 @@
 
   <!-- AOSP removals -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
 
   <!-- AOSP replacements -->
   <project path="build" name="STS-Dev-Team/build" remote="gh" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="gh" revision="jb" />
+  <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb" />
 
     <!-- local manifest to add STS-projects -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="jb" />
@@ -25,7 +29,8 @@
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="gh" revision="jb" />
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />\
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
   
 
   <!-- spyder kernel -->
