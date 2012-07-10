@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="gh"
+  <remote  name="gh"
            fetch="git://github.com/" />
-  
+
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/" />
+
     <!-- local manifest to add STS-projects -->
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="jb" />
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="jb" />
@@ -19,5 +22,8 @@
 
   <!-- spyder kernel -->
   <project path="kernel/motorola/omapxt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
+
+  <!-- TI addons -->
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="ics-mr1-release" />
 
 </manifest>
