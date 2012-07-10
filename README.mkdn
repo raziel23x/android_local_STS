@@ -1,5 +1,4 @@
-Local manifest addon for ICS leak on Spyder with omapzoom
-
+Local manifest addon for AOSP-JB
 Getting Started
 ---------------
 
@@ -14,11 +13,11 @@ Make a build directory:
 
 To initialize your local repository using the omapzoom manifest, use commands like these:
 
-    repo init -u git://git.omapzoom.org/platform/omapmanifest.git -b ics-mr1-release
+    repo init -u https://android.googlesource.com/platform/manifest -b android-4.1.1_r1
     
-    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/ics-omapzoom-leak/local_manifest.xml
+    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/jb-aosp/local_manifest.xml
 
-    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/ics-omapzoom-leak/local_manifest.xml
+    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/jb-aosp/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:

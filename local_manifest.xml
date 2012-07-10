@@ -3,50 +3,21 @@
 
 <remote  name="gh"
            fetch="git://github.com/" />
-
-  <remove-project name="platform/hardware/ti/omap4xxx" />
-  <remove-project name="platform/hardware/ti/domx" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/build" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/external/sqlite" />
-  <remove-project name="platform/packages/apps/Phone" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/OMAPCamera" />"
-  <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="device/ti/common-open" />
   
     <!-- local manifest to add STS-projects -->
-  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
-  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="ics-omapzoom-leak" />
-  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" remote="gh" revision="ics-omapzoom-leak" />
-  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" remote="gh" revision="ics-omapzoom-leak" />
-  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="gh" revision="ics" />
+  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="jb" />
+  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="jb" />
+  <!-- <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" remote="gh" revision="jb" />
+  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" remote="gh" revision="jb" />
+  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" remote="gh" revision="jb" />
+  <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" remote="gh" revision="jb" /> -->
+  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="gh" revision="jb" />
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" revision="ics" remote="gh" />
+  <!-- <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" revision="ics" remote="gh" /> -->
 
-  <!-- TI replacements -->
-  <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="ics-omapzoom">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="hardware/ti/domx" name="STS-Dev-Team/android_hardware_ti_domx" revision="ics" remote="gh" />
-  <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" revision="ics" remote="gh" />
-  <project path="bionic" name="platform/bionic" revision="9487ef632ce3c0700d20f033204b5a5f9f720eb3" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
-  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="ics-omapzoom" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
-  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-omapzoom" remote="gh" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-omapzoom" remote="gh" />
-  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics-release" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="d40d3061e5b6ef2f9381bc7b5a2d66e834fbcd80" />
-  <project path="device/ti/common-open" name="device/ti/common-open" revision="3bb39de0b5dd47c22fc387a8249b061edff014e6" />
-
-<!-- Global RAZR kernel -->
-  <project path="kernel/motorola/spyder" name="STS-Dev-Team/kernel_omap4_xt910s" remote="gh" revision="master" />
+  <!-- spyder kernel -->
+  <project path="kernel/motorola/omapxt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
 
 </manifest>
