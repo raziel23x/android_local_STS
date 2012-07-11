@@ -40,7 +40,7 @@
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />\
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
+  <!-- <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" /> -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="jellybean" />
 
   <!-- spyder kernel -->
