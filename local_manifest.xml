@@ -22,7 +22,7 @@
   <project path="build" name="STS-Dev-Team/build" remote="gh" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="system/core" name="STS-Dev-Team/android_system_core" remote="gh" revision="jb-aosp" />
+  <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="gh" revision="jb" />
   <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb" />
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="jb-aosp" />
   <project path="frameworks/native" name="STS-Dev-Team/android_frameworks_native" remote="gh" revision="jb-aosp" />
