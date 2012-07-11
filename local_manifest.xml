@@ -45,6 +45,6 @@
   <project path="kernel/motorola/omapxt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
 
   <!-- TI addons -->
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="ics-mr1-release" />
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" />
 
 </manifest>
