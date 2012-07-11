@@ -15,6 +15,8 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/packages/apps/Phone" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/hardware/ti/wlan" />
+  <remove-project name="platform/hardware/ti/wpan" />
 
   <!-- AOSP replacements -->
   <project path="build" name="STS-Dev-Team/build" remote="gh" revision="jb">
@@ -44,7 +46,8 @@
   <!-- spyder kernel -->
   <project path="kernel/motorola/omapxt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
 
-  <!-- TI addons -->
+  <!-- TI addons/replacements -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" />
-
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="p-jb-release" />
 </manifest>
