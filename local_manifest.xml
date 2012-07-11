@@ -10,6 +10,7 @@
   <!-- AOSP removals -->
   <remove-project name="platform/build" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/packages/apps/Phone" />
@@ -20,6 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="gh" revision="jb" />
+  <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb" />
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="jb-aosp" />
   <project path="frameworks/native" name="STS-Dev-Team/platform_frameworks_native" remote="gh" revision="jb" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" remote="gh" revision="jb-aosp" />
@@ -36,7 +38,7 @@
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />\
-  <!-- <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" /> -->
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="jellybean" />
 
   <!-- spyder kernel -->
