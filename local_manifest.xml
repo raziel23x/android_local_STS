@@ -45,7 +45,7 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="jellybean" />
 
   <!-- spyder kernel -->
-  <project path="kernel/motorola/omapxt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
+  <project path="kernel/motorola/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
 
   <!-- TI addons/replacements -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" />
