@@ -22,10 +22,10 @@
 
   <!-- CM replacements -->
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-moto-ril" />
-  <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" revision="ics" />
+  <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
   <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics-moto"/>
-  <project path="bionic" name="STS-Dev-Team/android_bionic" />
+  <project path="bionic" name="STS-Dev-Team/android_bionic" revision="ics-kexec" />
 
   <!-- local projects -->
   <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" revision="ics-kexec" />
