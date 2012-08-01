@@ -51,5 +51,5 @@
   <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics-release"/>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="d933a3abe927e2285cad8c00e3d6adfbb1998f8f" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="p-ics-mr1-release" />
 </manifest>
