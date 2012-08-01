@@ -29,9 +29,11 @@
 
   <!-- local projects -->
   <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" revision="ics-kexec" />
+  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics-kexec" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="ics-leak" />
   <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana"  revision="ics-kexec"/>
+  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="ics-kexec" />
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" />
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" />
   <project path="hardware/ti/domx" name="STS-Dev-Team/android_hardware_ti_domx" revision="ics-kexec" />
@@ -49,6 +51,5 @@
   <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics-release"/>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="p-ics-mr1-release" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="d933a3abe927e2285cad8c00e3d6adfbb1998f8f" />
 </manifest>
-
