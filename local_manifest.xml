@@ -35,6 +35,7 @@
   <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" revision="ics-kexec" />
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics-kexec" />
   <project path="kernel/motorola/solana" name="droid3-kexec/droid3-kexec-kernel" remote="gitorius" revision="3.0.31" />
+  <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common"  revision="ics"/>
   <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana"  revision="ics-kexec"/>
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="ics-kexec" />
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="ics-leak" />
