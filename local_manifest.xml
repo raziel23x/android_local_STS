@@ -17,9 +17,9 @@
   <remove-project name="AOKP/android_hardware_libhardware" />
   <remove-project name="AOKP/android_hardware_libhardware_legacy" />
   <remove-project name="AOKP/android_system_core" />
-  <remove-project name="AOKP/android_hardware_ti_omap4xxx" />
-  <remove-project name="AOKP/android_hardware_ti_wlan" />
-  <remove-project name="AOKP/android_hardware_ti_wpan" />
+  <remove-project name="platform/hardware/ti/omap4xxx" />
+  <remove-project name="platform/hardware/ti/wlan" />
+  <remove-project name="platform/hardware/ti/wpan" />
   <remove-project name="AOKP/android_hardware_qcom_media" />
   <remove-project name="AOKP/packages_apps_Contacts" />
   <remove-project name="AOKP/packages_apps_Mms" />
