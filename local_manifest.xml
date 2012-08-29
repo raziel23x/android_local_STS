@@ -58,6 +58,7 @@
   <project path="vendor/aokp" name="STS-Dev-Team/vendor_aokp" remote="gh" revision="jb" />
 
   <!-- local devices -->
+  <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" remote="github" revision="jb" />
   <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" remote="gh" revision="jb" />
   <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" remote="gh" revision="jb" />
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="jb" />
