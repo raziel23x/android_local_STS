@@ -63,7 +63,7 @@
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />\
   <!-- <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" /> -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="jellybean" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="gh" revision="jellybean" />
 
   <!-- TI addons -->
   <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="jb-release" />
