@@ -15,6 +15,8 @@
   <!-- <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/apps/Phone" />
   <remove-project name="platform/packages/apps/Settings" /> -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/hardware/ti/wpan" />
@@ -28,6 +30,8 @@
   <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" remote="gh" revision="jellybean" />
+  <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" remote="gh" revision="jellybean" />
+  <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" remote="gh" revision="jellybean" />
   <!-- <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="jb-aosp" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" remote="gh" revision="jb-aosp" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" remote="gh" revision="jb-aosp" /> -->
