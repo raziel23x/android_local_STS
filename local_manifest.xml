@@ -63,7 +63,7 @@
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />\
   <!-- <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" /> -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="jellybean" />
-  <project path="prebuilt/linux-x86/toolchain/arm_eabi-4.4.3" name="STS-Dev-Team/arm_eabi-4.4.3" remote="gh" revision="master" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="STS-Dev-Team/arm-eabi-4.4.3" remote="gh" revision="master" />
 
   <!-- TI addons -->
   <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="jb-release" />
