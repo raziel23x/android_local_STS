@@ -80,7 +80,4 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="jb-release" />
 
-  <!-- add this so aosp builds don't complain -->
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="jb" />
-
 </manifest>
