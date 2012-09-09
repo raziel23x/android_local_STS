@@ -1,4 +1,4 @@
-Local manifest addon for Cyanogenmod Jellybean on moto
+Local manifest addon for AOKP Jellybean kexec for OMAP4 devices
 
 Getting Started
 ---------------
@@ -16,9 +16,9 @@ To initialize your local repository using the Cyanogemod manifest, use commands 
 
     repo init -u https://github.com/AOKP/platform_manifest.git -b jb
     
-    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/jb-aokp/local_manifest.xml
+    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/jb-aokp-kexec/local_manifest.xml
 
-    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/jb-aokp/local_manifest.xml
+    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/jb-aokp-kexec/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:
