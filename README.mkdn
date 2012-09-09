@@ -1,4 +1,4 @@
-Local manifest addon for AOSP-JB
+Local manifest addon for AOSP-JB kexec
 Getting Started
 ---------------
 
@@ -18,9 +18,9 @@ To initialize your local repository using the AOSP Master Branch manifest, use c
 
     repo init -u https://android.googlesource.com/platform/manifest
     
-    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/jb-aosp/local_manifest.xml
+    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/jb-aosp-kexec/local_manifest.xml
 
-    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/jb-aosp/local_manifest.xml
+    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/jb-aosp-kexec/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:
