@@ -14,10 +14,12 @@
   <remove-project name="AOKP/external_wpa_supplicant_8" />
   <remove-project name="AOKP/system_core" />
   <remove-project name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
 
   <!-- AOKP replacements -->
   <project path="bionic" name="STS-Dev-Team/android_bionic" remote="gh" revision="ics" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="cm-9.0.0" />
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="ics-aokp-moto-ril" />
   <project path="hardware/ti/domx" name="STS-Dev-Team/android_hardware_ti_domx" remote="gh" revision="ics" />
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" remote="gh" revision="ics" />
