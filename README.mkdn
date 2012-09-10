@@ -1,4 +1,4 @@
-Local manifest addon for AOKP ICS stock-based on OMAP4 devices
+Local manifest addon for AOKP ICS kexec on OMAP4 devices
 
 Getting Started
 ---------------
@@ -16,9 +16,9 @@ To initialize your local repository using the AOKP manifest, use commands like t
 
     repo init -u https://github.com/AOKP/platform_manifest.git -b ics
     
-    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/ics-aokp-stock/local_manifest.xml
+    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/ics-aokp-kexec/local_manifest.xml
 
-    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/ics-aokp-stock/local_manifest.xml
+    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/ics-aokp-kexec/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:
