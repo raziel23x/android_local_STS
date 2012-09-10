@@ -26,24 +26,24 @@
   <project path="system/core" name="STS-Dev-Team/android_system_core" remote="gh" revision="ics-moto" />
   
  <!-- local devices -->
-  <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" revision="ics" />
-  <project path="device/motorola/kexec" name="STS-Dev-Team/android_device_motorola_kexec" revision="master" />
-  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" revision="ics" />
-  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" revision="ics" />
-  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics" />
-  <project path="device/motorola/umts_spyder" name="STS-Dev-Team/android_device_motorola_umts_spyder" revision="ics" />
+  <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" remote="gh" revision="ics" />
+  <project path="device/motorola/kexec" name="STS-Dev-Team/android_device_motorola_kexec" remote="gh" revision="master" />
+  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" remote="gh" revision="ics" />
+  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" remote="gh" revision="ics" />
+  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="ics" />
+  <project path="device/motorola/umts_spyder" name="STS-Dev-Team/android_device_motorola_umts_spyder" remote="gh" revision="ics" />
 
   <!-- local vendor -->
-  <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common" revision="ics" />
-  <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" revision="master" />
-  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="master" />
-  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" revision="master"  />
-  <project path="vendor/motorola/umts_spyder" name="STS-Dev-Team/android_vendor_motorola_umts_spyder" revision="master" />
+  <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common" remote="gh" revision="ics" />
+  <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" remote="gh" revision="master" />
+  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="master" />
+  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" remote="gh" revision="master"  />
+  <project path="vendor/motorola/umts_spyder" name="STS-Dev-Team/android_vendor_motorola_umts_spyder" remote="gh" revision="master" />
 
   <!-- local misc -->
-  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="ics-leak" />/>
-  <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" />
-  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" />
+  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" remote="gh" revision="ics-leak" />/>
+  <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics"/>
+  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
 
   <!-- spyder kernel for modules -->
   <project path="kernel/moto/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
