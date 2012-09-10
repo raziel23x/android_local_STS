@@ -51,8 +51,6 @@
  <!-- TI addons -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
-  <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
-  <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="ics-mr1-release" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="ics-mr1-release" />
