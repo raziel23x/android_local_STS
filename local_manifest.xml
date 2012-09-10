@@ -46,8 +46,7 @@
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics"/>
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="gh" revision="refs/heads/gingerbread" />
 
-  <!-- spyder kernel for modules -->
-  <project path="kernel/motorola/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
+  <project path="kernel/motorola/mapphone" name="STS-Dev-Team/kernel_mapphone_kexec" remote="gh" revision="3.0.31" />
 
  <!-- TI addons -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
