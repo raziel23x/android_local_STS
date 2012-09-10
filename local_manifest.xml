@@ -29,20 +29,21 @@
 
   <!-- local device projects -->
   <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" revision="ics" />
-  <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" revision="ics-kexec" />
-  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" revision="ics-kexec" />
-  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics-kexec" />
-  <project path="device/motorola/umts_spyder" name="STS-Dev-Team/android_device_motorola_umts_spyder" revision="ics-kexec" />
-  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" revision="ics-kexec" />
+  <project path="device/motorola/kexec" name="STS-Dev-Team/android_device_motorola_kexec" revision="master" />
+  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" revision="ics />
+  <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" revision="ics" />
+  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics" />
+  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" revision="ics" />
+  <project path="device/motorola/umts_spyder" name="STS-Dev-Team/android_device_motorola_umts_spyder" revision="ics" />
   <project path="device/motorola/edison" name="STS-Dev-Team/android_device_motorola_edison" revision="ics-kexec" />
 
   <!-- local vendor projects -->
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="ics-leak" />
   <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common"  revision="ics"/>
-  <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana"  revision="master"/>
-  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa"  revision="master"/>
-  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="master" />
   <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" revision="master" />
+  <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana"  revision="master"/>
+  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="master" />
+  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa"  revision="master"/>
   <project path="vendor/motorola/umts_spyder" name="STS-Dev-Team/android_vendor_motorola_umts_spyder" revision="master" />
   <project path="vendor/motorola/edison" name="STS-Dev-Team/android_vendor_motorola_edison" revision="master" />
 
