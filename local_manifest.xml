@@ -49,6 +49,7 @@
   <!-- local devices -->
   <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" remote="gh" revision="jb" />
   <project path="device/motorola/kexec" name="STS-Dev-Team/android_device_motorola_kexec" remote="gh" revision="master" />
+  <project path="device/motorola/edison" name="STS-Dev-Team/android_device_motorola_edison" remote="gh" revision="jb" />
   <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" remote="gh" revision="jb" />
   <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" remote="gh" revision="jb" />
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" remote="gh" revision="jb" />
@@ -57,6 +58,7 @@
 
   <!-- local vendor -->
   <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common" remote="gh" revision="jb" />
+  <project path="vendor/motorola/edison" name="STS-Dev-Team/android_vendor_motorola_edison" remote="gh" revision="master" />
   <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" remote="gh" revision="master" />
   <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana" remote="gh" revision="master" />
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" remote="gh" revision="master" />
@@ -67,7 +69,7 @@
   <!-- <project path="frameworks/opt/telephony" name="STS-Dev-Team/android_frameworks_opt_telephony" remote="gh" revision="master"/> -->
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <project path="kernel/motorola/mapphone" name="STS-Dev-Team/kernel_mapphone_kexec" remote="gh" revision="3.0.31" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />\
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
   <!-- <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" /> -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="jellybean" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="STS-Dev-Team/arm-eabi-4.4.3" remote="gh" revision="master" />
