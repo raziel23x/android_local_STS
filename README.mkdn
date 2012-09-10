@@ -1,4 +1,4 @@
-Local manifest addon for ICS on Solana/Targa/Spyder Dev Team
+Local manifest addon for CM ICS stock-based on OMAP4 devices
 
 Getting Started
 ---------------
@@ -16,9 +16,9 @@ To initialize your local repository using the Cyanogenmod manifest, use commands
 
     repo init -u git://github.com/CyanogenMod/android.git -b ics
     
-    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/ics-leak/local_manifest.xml
+    curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/STS-Dev-Team/android_local_STS/ics-cm-stock/local_manifest.xml
 
-    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/ics-leak/local_manifest.xml
+    	( or Download: https://github.com/STS-Dev-Team/android_local_STS/blob/ics-cm-stock/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:

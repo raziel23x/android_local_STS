@@ -5,52 +5,61 @@
            fetch="git://git.omapzoom.org/" />
 
   <!-- CM removals -->
-  <remove-project name="CyanogenMod/android_hardware_samsung" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <remove-project name="CyanogenMod/android_packages_apps_Phone" />
-  <remove-project name="CyanogenMod/android_system_core" />
-  <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_external_iptables" />
   <remove-project name="CyanogenMod/android_external_iproute2" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="CyanogenMod/android_hardware_samsung" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+  <remove-project name="CyanogenMod/android_packages_apps_Phone" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
 
   <!-- CM replacements -->
-  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-moto-ril" />
-  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
-  <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics-moto"/>
   <project path="bionic" name="STS-Dev-Team/android_bionic" />
-
-  <!-- local projects -->
-  <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" revision="ics-kexec" />
-  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" revision="ics-leak" />
-  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics" />
-  <project path="device/motorola/umts_spyder" name="STS-Dev-Team/android_device_motorola_umts_spyder" revision="ics" />
-  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" revision="ics" />
-  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
-  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="ics-leak" />
-  <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana"  revision="ics-kexec"/>
-  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa"  revision="ics-leak"/>
-  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="ics" />
-  <project path="vendor/motorola/umts_spyder" name="STS-Dev-Team/android_vendor_motorola_umts_spyder" revision="ics" />
-  <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" revision="master" />
-  <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" />
-  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" />
+  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-moto-ril" />
   <project path="hardware/ti/domx" name="STS-Dev-Team/android_hardware_ti_domx" />
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" />
+  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
+  <project path="system/core" name="STS-Dev-Team/android_system_core" revision="ics-moto"/>
 
-  <!-- DROID RAZR kernel -->
+  <!-- local devices -->
+  <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" revision="ics" />
+  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" revision="ics" />
+  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" revision="ics" />
+  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics" />
+  <project path="device/motorola/umts_spyder" name="STS-Dev-Team/android_device_motorola_umts_spyder" revision="ics" />
+
+  <!-- local vendor -->
+  <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common" revision="ics" />
+  <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" revision="master" />
+  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" revision="master" />
+  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" revision="master"  />
+  <project path="vendor/motorola/umts_spyder" name="STS-Dev-Team/android_vendor_motorola_umts_spyder" revision="master" />
+
+  <!-- local misc -->
+  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="ics-leak" />/>
+  <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" />
+  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" />
+
+  <!-- DROID RAZR kernel for modules -->
   <project path="kernel/motorola/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" revision="master" />
 
-  <!-- TI add on APPS -->
+ <!-- TI addons -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
-  <!-- ><project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="ics-mr1" /> -->
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
   <project path="external/iptables" name="platform/external/iptables" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="external/iproute2" name="platform/external/iproute2" remote="omapzoom" revision="p-ics-mr1-release" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="p-ics-mr1-release" />
+  <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="ics-mr1-release" />
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="ics-mr1-release" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-ics-mr1-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="ics-release"/>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="d933a3abe927e2285cad8c00e3d6adfbb1998f8f" />
+
+  <!--<project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="omapzoom" revision="d933a3abe927e2285cad8c00e3d6adfbb1998f8f" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="b9db91d4d46cb24b5c3f687ad938167af6c2271b" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" /> -->
+  
 </manifest>
