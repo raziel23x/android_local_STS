@@ -8,7 +8,7 @@
            fetch="git://git.omapzoom.org/" />
 
   <!-- AOKP removals -->
-  <remove-project name="AOKP/android_bionic" />
+  <!-- <remove-project name="AOKP/android_bionic" /> -->
   <remove-project name="AOKP/android_build" />
   <remove-project name="AOKP/platform_development" />
   <remove-project name="AOKP/frameworks_av" />
@@ -18,7 +18,7 @@
   <remove-project name="android_hardware_libhardware_legacy" />
   <remove-project name="AOKP/android_system_core" />
   <remove-project name="AOKP/android_hardware_ril" />
-  <remove-project name="platform/hardware/ti/omap4xxx" />
+  <!-- <remove-project name="platform/hardware/ti/omap4xxx" /> -->
   <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/hardware/ti/wpan" />
   <remove-project name="android_hardware_qcom_media" />
@@ -36,7 +36,7 @@
   <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="jb-aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="STS-Dev-Team/android_bionic" remote="gh" revision="jellybean" />
+  <!-- <project path="bionic" name="STS-Dev-Team/android_bionic" remote="gh" revision="jellybean" /> -->
   <project path="development" name="STS-Dev-Team/android_development" remote="gh" revision="jellybean" />
   <project path="frameworks/av" name="STS-Dev-Team/android_frameworks_av" remote="gh" revision="jellybean" />
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="jb-aokp" />
@@ -44,7 +44,7 @@
   <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" remote="gh" revision="jellybean" />
   <project path="hardware/ril" name="STS-Dev-Team/android_hardware_ril" remote="gh" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" remote="gh" revision="jellybean" />
-  <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" remote="gh" revision="jellybean" />
+  <!-- <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" remote="gh" revision="jellybean" /> -->
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
   <project path="packages/apps/Contacts" name="STS-Dev-Team/android_packages_apps_Contacts" remote="gh" revision="jellybean" />
   <project path="packages/apps/Mms" name="STS-Dev-Team/android_packages_apps_Mms" remote="gh" revision="jb-aokp" />
@@ -86,7 +86,7 @@
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
   <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="jb-release" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" remote="omapzoom" revision="master"/>
-  <project path="hardware/ti/domx" name="platform/hardware/ti/domx" remote="omapzoom" revision="jb-release" />
+  <!-- <project path="hardware/ti/domx" name="platform/hardware/ti/domx" remote="omapzoom" revision="jb-release" /> -->
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="jb-release" />
   
