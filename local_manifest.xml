@@ -46,13 +46,13 @@
   <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" remote="gh" revision="jellybean" />
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" remote="gh" revision="jellybean-kexec" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
-  <project path="packages/apps/Contacts" name="STS-Dev-Team/android_packages_apps_Contacts" remote="gh" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="STS-Dev-Team/android_packages_apps_Contacts" remote="gh" revision="jb-aokp" />
   <project path="packages/apps/Mms" name="STS-Dev-Team/android_packages_apps_Mms" remote="gh" revision="jb-aokp" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" remote="gh" revision="jb-aokp" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" remote="gh" revision="jb-aokp" />
   <project path="packages/apps/Stk" name="STS-Dev-Team/android_packages_apps_Stk" remote="gh" revision="jellybean" />
   <project path="packages/apps/VoiceDialer" name="STS-Dev-Team/android_packages_apps_VoiceDialer" remote="gh" revision="jellybean" />
-  <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" remote="gh" revision="jellybean" />
+  <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" remote="gh" revision="jb-aokp" />
   <project path="packages/providers/DrmProvider" name="STS-Dev-Team/android_packages_providers_DrmProvider" remote="gh" revision="jellybean" />
   <project path="packages/providers/TelephonyProvider" name="STS-Dev-Team/android_packages_providers_TelephonyProvider" remote="gh" revision="jellybean" />
   <project path="system/core" name="STS-Dev-Team/android_system_core" remote="gh" revision="jellybean" />
