@@ -31,7 +31,7 @@
   <remove-project name="AOKP/packages_providers_ContactsProvider" />
   <remove-project name="platform/packages/providers/DrmProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <remove-project name="AOKP/platform_dalvik"
+  <remove-project name="AOKP/platform_dalvik" />
   
   <!-- AOKP replacements -->
   <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="jb-aokp" >
