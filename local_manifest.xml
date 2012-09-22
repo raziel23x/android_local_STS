@@ -31,6 +31,7 @@
   <remove-project name="AOKP/packages_providers_ContactsProvider" />
   <remove-project name="platform/packages/providers/DrmProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="AOKP/platform_dalvik"
   
   <!-- AOKP replacements -->
   <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="jb-aokp" >
@@ -56,6 +57,7 @@
   <project path="packages/providers/DrmProvider" name="STS-Dev-Team/android_packages_providers_DrmProvider" remote="gh" revision="jellybean" />
   <project path="packages/providers/TelephonyProvider" name="STS-Dev-Team/android_packages_providers_TelephonyProvider" remote="gh" revision="jellybean" />
   <project path="system/core" name="STS-Dev-Team/android_system_core" remote="gh" revision="jellybean" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="gh" revision="jellybean" />
 
   <!-- local devices -->
   <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" remote="gh" revision="jb" />
