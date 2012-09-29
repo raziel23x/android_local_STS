@@ -18,7 +18,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/Phone" />
-  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/ril" />
@@ -46,7 +45,6 @@
   <project path="hardware/ril" name="STS-Dev-Team/android_hardware_ril" remote="gh" revision="jellybean" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="jellybean" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" remote="gh" revision="jb-aosp" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" remote="gh" revision="jb-aosp" />
 
   <!-- local devices -->
   <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" remote="gh" revision="jb" />
