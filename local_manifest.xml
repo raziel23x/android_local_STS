@@ -25,7 +25,6 @@
   <remove-project name="AOKP/packages_apps_Contacts" />
   <remove-project name="AOKP/packages_apps_Mms" />
   <remove-project name="AOKP/packages_apps_Phone" />
-  <remove-project name="AOKP/packages_apps_Settings" />
   <remove-project name="AOKP/packages_apps_Stk" />
   <remove-project name="platform/packages/apps/VoiceDialer" />
   <remove-project name="AOKP/packages_providers_ContactsProvider" />
@@ -49,7 +48,6 @@
   <project path="packages/apps/Contacts" name="STS-Dev-Team/android_packages_apps_Contacts" remote="gh" revision="jb-aokp" />
   <project path="packages/apps/Mms" name="STS-Dev-Team/android_packages_apps_Mms" remote="gh" revision="jb-aokp" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" remote="gh" revision="jb-aokp" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" remote="gh" revision="jb-aokp" />
   <project path="packages/apps/Stk" name="STS-Dev-Team/android_packages_apps_Stk" remote="gh" revision="jellybean" />
   <project path="packages/apps/VoiceDialer" name="STS-Dev-Team/android_packages_apps_VoiceDialer" remote="gh" revision="jellybean" />
   <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" remote="gh" revision="jb-aokp" />
